@@ -1,0 +1,250 @@
+.kredit_rasrochka_tavar{
+    padding-top: 140px;
+    width: 100vw;
+}
+.title-rasr{
+    width: 95%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 50px;
+}
+.title-rasr h1{
+    font-family: Montserrat;
+font-size: 28px;
+font-weight: 600;
+line-height: 34.13px;
+text-align: left;
+text-transform: uppercase;
+}
+
+.credit-option__item--tinkoff{
+    background: #FFDD2D;
+    width: 100%;
+    height: 413px;
+    margin-top: 32px;
+    position: relative;
+    padding-top: 78px;
+    overflow: hidden;
+}
+.credit-option__image--pos {
+    position: absolute;
+    right: -101px;
+    bottom: 0px;
+    /* top: 0px;/// */
+    width: 39%;
+}
+.credit-option__content{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.credit-option__content h1{
+    font-family: Montserrat;
+font-size: 54px;
+font-weight: 700;
+line-height: 65.83px;
+text-align: left;
+
+}
+.credit-option__content h2{
+    font-family: Montserrat;
+font-size: 50px;
+font-weight: 500;
+line-height: 60.95px;
+text-align: left;
+margin-top: 22px;
+}
+.credit-option__content img {
+    width: 27%;
+    margin-top: 22px;
+    /* background-color: red; */
+    /* height: 20px; */
+}
+.credit-option__image--pos1{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 43%;
+}
+
+.credit-option__item--tinkoff1{
+    background: 
+    linear-gradient(256.76deg, #FAED00 0.54%, #00D900 37.6%, #21A038 92.45%);
+    width: 100%;
+    height: 413px;
+    margin-top: 32px;
+    position: relative;
+    padding-top: 78px;
+    color: white;
+    overflow: hidden;
+
+}
+.credit-option__item--tinkoff1 h1{
+    margin-bottom: 34px;
+}
+.credit-option__icon{
+    margin-top: 33px !important;
+    width: 27% !important;
+}
+/* .credit-option__image--pos22{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 40%;
+    display: none;
+} */
+.credit-option__image--pos22   {
+    position: absolute;
+    right: 1px;
+    /* top: 0px; */
+    width: 36%;
+    bottom: 0px;
+    display: none;
+}
+.credit-option__image--jeww{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: none;
+}
+@media (max-width:1210px) {
+    .credit-option__image--pos{ 
+    width: 56%;
+    }
+    /* .credit-option__content {
+        width: 98%;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+    }
+    .credit-option__content h1{
+        width: 66%;
+    } */
+}
+@media (max-width:1070px) {
+    .credit-option__content {
+        width: 98%;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+    }
+  
+
+}
+@media (max-width:991px) {
+    .credit-option__item--tinkoff1{
+        width: 92%;
+        max-width: 1440px;
+        margin: auto;
+       border-radius: 12px;
+       /* height: 151px;/ */
+       padding-top: 20px;
+    }
+    .kredit_rasrochka_tavar {
+        padding-top: 28px;
+    }
+    .credit-option__item--tinkoff{
+        width: 92%;
+        max-width: 1440px;
+       margin: auto;
+       margin-bottom: 20px;
+       border-radius: 12px;
+       /* height: 151px; */
+       padding-top: 20px;
+       margin-top: 14px;
+
+    }
+   .credit-option__image--pos{
+    display: none;
+   }
+   .credit-option__image--pos22{
+    display: block;
+   }
+   .credit-option__image--pos1{
+    display: none;
+}
+.credit-option__image--jeww{
+    display: block;
+    width: 50%;
+}
+}
+@media (max-width:500px) {
+    .credit-option__content h1{
+        font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.94px;
+text-align: left;
+width: 75%;
+
+    }
+    .credit-option__item--tinkoff1{
+        width: 92%;
+        max-width: 1440px;
+        margin: auto;
+       border-radius: 12px;
+       height: 151px;
+       padding-top: 20px;
+    }
+    .credit-option__item--tinkoff{
+        width: 92%;
+        max-width: 1440px;
+       margin: auto;
+       margin-bottom: 20px;
+       border-radius: 12px;
+       height: 151px;
+       padding-top: 20px;
+       margin-top: 14px;
+
+    }
+    .credit-option__image--pos{
+        display: none;
+    }
+    .credit-option__image--pos22{
+        display: block;
+    }
+    .credit-option__content h2{
+        font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: left;
+margin-top: 11px !important;
+
+    }
+    .title-rasr h1{
+        font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+text-align: left;
+text-transform:capitalize;
+
+    }
+  
+    .credit-option__image--pos22 {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        width: 45%;
+    }
+    .credit-option__content {
+        width: 97%;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+        padding-left: 13px;
+    }
+    .credit-option__content img {
+        width: 47%;
+        margin-top: 11px;
+}
+.credit-option__icon {
+    margin-top: 10px !important;
+    width: 51% !important;
+}
+.credit-option__item--tinkoff1 h1 {
+    margin-bottom: 10px;
+}
+}

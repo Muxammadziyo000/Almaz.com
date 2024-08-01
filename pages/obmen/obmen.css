@@ -1,0 +1,204 @@
+.banner_ak img{
+    width: 100%;
+    margin-top: 62px;
+    margin-bottom: 60px;
+}
+.banner_ak button{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+background: #FFF957;
+width: 291px;
+height: 58px;
+margin-left: -3px;
+border-radius: 14px;
+border: none;   
+margin-bottom: 52px;
+transition: 1s;
+}
+.banner_ak button:hover{
+    background-color: black;
+    /* border: 1px solid  black; */
+    color: white;
+}
+.client-adult{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    margin-top: 20px;
+    width: 86%;
+    margin: auto;
+    margin-top: 18px;
+    gap: 90px;
+}
+.client-adult__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.client-adult__item img{
+    width: 30%;
+    margin-bottom: 15px;
+}
+.client-adult__item p{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+
+}
+.reaktiv-container{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.reaktiv-container p{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+
+}
+.alsir-list li{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+margin-left: 27px;
+}
+.fram797{
+    display: none;
+}
+@media (max-width:991px) {
+   .obmen--body{
+    padding-top: 9px;
+
+   } 
+}
+@media (max-width:520px) {
+    .fram7922{
+        display: none;
+    }
+    .fram797{
+        display: block;
+    }
+    .banner_ak button{
+        width: 100%;
+    }
+    .banner__title--old{
+        font-family: Montserrat;
+font-size: 18px !important;
+font-weight: 600 !important;
+line-height: 21.94px !important;
+text-align: left !important;
+
+    }
+    .how-we-work__step-content h2{
+        font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 17.07px;
+text-align: left;
+
+    }
+    .how-we-work__step-content p{
+        font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.63px;
+text-align: left;
+
+    }
+.how-we-work__step-content span{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.07px;
+text-align: right;
+
+}
+.how-we-work__step{
+    height: 335px !important;
+}
+.how-we-work__step img{
+    height: 195px !important;
+}
+.how-we-work__step span{
+    position: absolute;
+    top: 100px;
+}
+.osnova_obm{
+    font-family: Montserrat;
+font-size: 18px !important;
+font-weight: 600 !important;
+line-height: 21.94px !important;
+text-align: center !important;
+
+}
+.client-adult__item p{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: center;
+
+}
+.conditions{
+    font-family: Montserrat;
+font-size: 18px !important;
+font-weight: 600 !important;
+line-height: 21.94px !important;
+text-align: left !important;
+
+}
+.reaktiv-container p{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+
+}
+.alsir-list li{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+
+}
+.phone__big-application{
+    width: 88%;
+}
+}
+@media (max-width:500px) {
+    .phone__big-application{
+    width: 100%;
+    height: 84px;
+    box-shadow: 0px 6px 45px 0px #3E3E3E1A;
+border-radius: 12px;
+    }
+    .contact-item img{
+        width: 24px;
+        top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .contact-item{
+        height: auto;
+    }
+    .contact-item p{
+        top: 6px !important; 
+    }
+    .contact-item h4{
+        top: 12px !important;
+    }
+    .product-actions-buttons{
+        overflow: auto;
+    }
+}

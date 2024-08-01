@@ -1,0 +1,438 @@
+.get-offer-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 37px;
+    gap: 28px;
+    margin-bottom: 83px;
+}
+.get-offer-section__item{
+    display: grid;
+    grid-template-columns: 30px auto;
+    /* height: 164px; */
+    align-items: start;
+    gap: 5px;
+}
+.get-offer-section__content h2{
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+
+}
+.get-offer-section__content{
+    margin-top: -3px;
+}
+.get-offer-section__content p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-bottom: 0;
+margin-top: 9px;
+}
+.lets_buy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 36px;
+    height: 487px;
+    gap: 30px;
+}
+.lets-buy__items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.lets-buy__item--pendants{
+    width: 100%;
+    background-color: blue;
+    border-radius: 16px;
+    position: relative;
+    height: 487px;
+}
+.lets-buy__item--pendants img{
+    width: 100%;
+}
+.lets-buy__item--rings{
+    width: 100%;
+}
+.lets-buy__item--pendants h3{
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+
+}
+.lets-buy__item--brooches{
+    width: 100%;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: aquamarine;
+    position: relative;
+}
+.lets-buy__item--pendants h3{
+    position: absolute;
+    bottom: 14px;
+    left: 19px;
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+
+}
+.lets-buy__item--brooches h3{
+    position: absolute;
+    bottom: 14px;
+    left: 28px;
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+}
+.end-section__btn{
+    width: 300px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.07px;
+background-color: white;
+margin-top: 30px;
+margin-left: 11px;
+}
+.sale-banner{
+    overflow: hidden;
+    background: url("/image/d50536717abdd72fd3b7f2c7ee547948\ \(1\).jpeg");
+    height:355px;
+    background-size:cover;
+    background-position: 0% 100%;
+border-radius: 16px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.user-parlor__content3 .sele-banner__title{
+    font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0.5px;
+            text-align: left;
+        text-transform: uppercase;
+}
+.sale-banner .sale-banner__text{
+    margin-left: 3.7%;
+    position: relative;
+    z-index: 23;
+}
+.sale-banner .sale-banner__images{
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items:start;
+    max-height: 400px;
+}
+.sale-banner .sale-banner__images .sale-banner__image-second {
+    position: relative;
+    top: 20px;
+    max-width: 86%;
+    left: 63px;
+}
+ 
+.sale-banner .sale-banner__images .sale-banner__image-first {
+    position: absolute;
+    top: 28%;
+    z-index: 2;
+    left: -38%;
+    width: 300px;
+    transform: rotateX(15deg) rotateZ(37deg) rotateY(179deg);
+}
+
+.sale-banner .sale-banner__images{
+    height: 100%;
+}
+.sale-banner .sale-banner__text h3{
+    font-family: Montserrat;
+    font-size: 56px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    
+}
+
+.sale-banner .sale-banner__text h4{
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    position: relative;
+    top: 16px;
+    
+}
+.lets-buy__title{
+    font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.5px;
+text-align: center;
+margin-left: 10px;
+}
+@media (max-width:991px){
+    .sale-banner{
+      display: flex;
+      flex-direction: column;
+    }
+    .skidka-body{
+        padding-top: 60px !important;
+        width: 99vw       !important;
+    }
+    .sale-banner .sale-banner__images .sale-banner__image-first{
+        width: 186px;
+        left: -60%;
+    }
+    .sale-banner .sale-banner__images{
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: end;
+        max-width: 216px;
+        margin: auto;
+    }
+    .lets_buy{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 36px;
+        height: auto;
+        gap: 30px;
+    }
+    .get-offer-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 37px;
+        gap: 28px;
+        margin-bottom: 83px;
+    }
+    .get-offer-section__item {
+        display: grid;
+        grid-template-columns: 30px auto;
+        /* height: auto; */
+        min-height: 164px;
+        align-items: start;
+        gap: 5px;
+    }
+    .sale-banner .sale-banner__text h3{
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 27.6px;
+        text-align: center;
+color: #242424;        
+        
+    }
+    
+    .sale-banner .sale-banner__text h4{
+    
+        font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+color: #242424;        
+
+    }
+.lets-buy__items img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+}
+@media(max-width:570px){
+    .get-offer-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 37px;
+        gap: 28px;
+        margin-bottom: 83px;
+    }    
+}
+@media (max-width:400px) {
+    .sele-banner__title{
+        font-family: Montserrat;
+font-size: 24px !important;
+font-weight: 600 !important;
+line-height: 32px !important;
+letter-spacing: 0.5px !important;
+text-align: left;
+width: 90%;
+    }
+    .sale-banner {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+        padding-top: 49px;
+    }
+    .sale-banner__text h3{
+        font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 27.6px;
+text-align: center;
+text-transform: uppercase;
+    }
+    .sale-banner__text h4{
+        font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+top: 0px !important;
+    }
+    .sale-banner .sale-banner__text {
+        margin-left: 0px !important;
+    }
+    .sale-banner .sale-banner__images .sale-banner__image-second {
+        position: relative;
+        top:35px;
+        max-width: 96%;
+        left: 12px;
+    }
+    .sale-banner {
+      
+        height: 464px;
+    }
+    .sale-banner .sale-banner__images .sale-banner__image-first {
+        width: 207px;
+        top: 128px;
+        left: -60%;
+    }
+    .cto-section__title{
+        font-family: Montserrat;
+font-size: 18px !important;
+font-weight: 700 !important;
+line-height: 27px !important;
+text-align: center;
+margin-top: 17px !important;
+margin-left: 3px !important;
+    }
+    .get-offer-section__content h2{
+        font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+
+    }
+    .get-offer-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 14px;
+        gap: 0px;
+        margin-bottom: 83px;
+    }
+    .get-offer-section__content p{
+        font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+
+    }
+    .yine{
+        margin-top: -32px;
+        margin-bottom: -10px;
+    }
+    .lets-buy__title{
+        font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0.5px;
+text-align: center;
+margin-top: -140px;
+margin-left: -3px;
+    }
+
+.lets-buy__item--pendants {
+    width: 100%;
+    background-color: blue;
+    border-radius: 16px;
+    position: relative;
+    height: 272px;
+}
+.lets-buy__item--brooches {
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: aquamarine;
+    position: relative;
+}
+.lets_buy {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    height: auto;
+    gap: 10px;
+}
+.lets-buy__item--brooches{
+    margin-top: -3px;
+}
+.lets-buy__item--pendants h3{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+bottom: 0px;
+left: 9px;
+}
+.lets-buy__item--brooches h3{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+bottom: -3px;
+left: 11px;
+}
+.fghyt{
+    margin-top: 5px !important;
+}
+.end-section__btn {
+    width: 100%;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    background-color: white;
+    margin-top: 19px;
+    margin-left: 0px !important;
+}
+.qwerty-footer0{
+    margin-top: 29px !important;
+    margin-bottom: 65px !important;
+}
+.qwerty-footer0 .accordion-button{
+    margin-left: -6px !important;
+    height: 34px !important;
+}
+}

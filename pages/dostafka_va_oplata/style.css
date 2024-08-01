@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.dastafka_i_payment-body {
+    padding-top: 200px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.dastafka_header {
+    /* height: 612px; */
+    background: linear-gradient(90deg, #69D1D0 0%, #69D0CF 31.5%, #58CDEC 59.5%, #53CDF4 100%);
+    overflow: hidden;
+    padding-bottom: 2%;
+    position: relative;
+}
+
+.bonus-main__body-page__road {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    max-width: 1440px;
+    width: 95%;
+    margin: auto;
+    padding-top: 11px;
+    margin-bottom: 36px;
+    padding-left: 0px;
+    position: relative;
+    z-index: 4;
+}
+.dastafak_admin_payment-body{
+    width: 95%;
+    max-width: 1440px;
+    margin: auto;
+}
+.bonus-main__body-page__road .bx-home-alt {
+    font-size: 20px;
+}
+
+.bonus-main__body-page__road .bx-chevron-right {
+    font-size: 20px;
+}
+
+.bonus-main__body-page__road h4 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.dastafka_header .dastafka_header_body {
+    display: grid;
+    grid-template-columns: 7fr 634px 7fr;
+    align-items: center;
+    margin-top: -58px;
+    min-height: 400px;
+}
+
+.dastafka_header .dastafka_header_body h1 {
+    font-family: Montserrat;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65.83px;
+    text-align: center;
+    color: white;
+    /* background-color: red;    */
+    /* height: 236px; */
+}
+
+.dastafka_header .dastafka_header_body img {
+    width: 94%;
+}
+
+.dastafka_header .dastafka_header_body .media__vektor-image-first {
+    scale: 1.2;
+}
+
+.circles {
+    width: 95%;
+    margin: auto;
+    max-width: 939px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -130px;
+}
+
+.circles .circles__item--1 {
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    border: 1px solid #DAE7F8;
+    background: #F6FAFF;
+    scale: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.circles .circles__item--1 p {
+    /* width: 70%; */
+    text-align: center;
+    /* margin: auto; */
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: center;
+
+}
+
+.circles .circles__item--1 img {
+    height: 56px;
+}
+
+@media (max-width:1200px) {
+    .dastafka_header .dastafka_header_body {
+        display: grid;
+        grid-template-columns: 7fr 404px 7fr;
+        align-items: center;
+        margin-top: -38px;
+    }
+
+    .dastafka_header .dastafka_header_body h1 {
+        font-family: Montserrat;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 40.83px;
+        text-align: center;
+        color: white;
+        /* background-color: red;    */
+        /* height: 236px; */
+    }
+
+    .circles .circles__item--1 img {
+        height: 38px;
+    }
+
+    .circles {
+        width: 95%;
+        margin: auto;
+        max-width: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: -100px;
+    }
+
+    .circles .circles__item--1 {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        border: 1px solid #DAE7F8;
+        background: #F6FAFF;
+        scale: 1.1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .circles .circles__item--1 p {
+        width: 90%;
+        text-align: center;
+        font-size: 15px;
+        /* margin: auto; */
+    }
+}
+
+@media(max-width:991px) {
+    .dastafka_i_payment-body {
+        padding-top: 67px;
+    }
+
+    .dastafka_header .dastafka_header_body {
+        height: auto;
+        min-height: 300px;
+    }
+
+    .circles .circles__item--1 img {
+        height: 28px;
+    }
+
+    .circles {
+        width: 95%;
+        margin: auto;
+        max-width: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: -60px;
+    }
+
+    .circles .circles__item--1 {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border: 1px solid #DAE7F8;
+        background: #F6FAFF;
+        scale: 1.1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .circles .circles__item--1 p {
+        width: 90%;
+        text-align: center;
+        font-size: 12px;
+        text-align: center;
+        /* margin: auto; */
+        font-family: Montserrat;
+        font-weight: 500;
+        line-height: 14.38px;
+        text-align: center;
+        /* margin: auto; */
+    }
+}
+
+@media(max-width:822px) {
+        /* .circles {
+            width: 95%;
+            margin: auto;
+            max-width: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-top: -40px;
+            gap: 10px;
+        } */
+
+    .circles .circles__item--1 {
+        border-radius: 22px;
+        width: 100%;
+        height: 130px;
+        border: 1px solid #DAE7F8;
+        background: #F6FAFF;
+        scale: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media(max-width:600px){
+    .circles {
+        width: 95%;
+        margin: auto;
+        max-width: 330px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -40px;
+        gap: 10px;
+        position: relative;
+        z-index: 12;
+    }
+    .dastafka_header .dastafka_header_body h1 {
+        position: relative;
+        z-index: 21;
+        font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+text-align: center;
+
+        
+    }
+    .dastafka_header{
+        background: linear-gradient(180deg, #69D1D0 0%, #69D0CF 31.5%, #58CDEC 59.5%, #53CDF4 100%);
+
+    }
+    /* .circles .circles__item--1 {
+        border-radius: 22px;
+        width: 100%;
+        height: 130px;
+        border: 1px solid #DAE7F8;
+        background: #F6FAFF;
+        scale: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        background-color: red;
+    }  */
+    .dastafka_header .dastafka_header_body {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .dastafka_header .dastafka_header_body .media__vektor-image-second{
+        position: relative;
+        z-index: 12;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .dastafka_header .dastafka_header_body .media__vektor-image-first {
+        position: absolute;
+        top: 92px;
+        left: 28px;
+        width: 100%;
+        filter: blur(2px);
+    }
+
+}
+
+
+
+
+.title_dastafla_payment-body{
+    font-family: Inter;
+font-size: 54px;
+font-weight: 600;
+line-height: 65.35px;
+text-align: center;
+margin-top: 62px;
+margin-bottom: 30px;
+}
+.dastafka_cards{
+display: flex;
+justify-content: center;
+max-width: 1132px;
+flex-wrap: wrap;
+gap: 34px;
+margin: auto;
+}
+.dastafka_cards .dastafka_card{
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    width: 197px;
+    height: 226px;
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+    gap: 37px;
+    position: relative;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 1px;
+}
+.dastafka_cards .dastafka_card img{
+height: 39px;
+}
+.dastafka_cards .dastafka_card p{
+    padding-bottom: 0px;
+    height: 40px;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.78px;
+text-align: center;
+color: #242424;
+
+}
+.dastafka_cards .dastafka_card a{
+position: absolute;
+bottom: 12px;
+left: auto;
+font-family: Inter;
+font-size: 12px;
+font-weight: 300;
+line-height: 14.52px;
+text-align: center;
+color: #242424;
+
+}
+.all_text_p{
+    max-width: 1440px;
+    margin: auto;
+    width: 95%;
+    margin-top: -2px;
+}
+.all_text_p p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+color: #242424;  
+margin-bottom: 24px;  
+}
+@media (max-width:790px){
+    .dastafka_cards .dastafka_card{
+        background: #FFFFFF;
+        border: 1px solid #F2F2F2;
+        width: 157px;
+        height: 164px;
+    }
+    .dastafka_cards .dastafka_card p{
+        padding-bottom: 0px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.94px;
+        text-align: center;
+color: #242424;        
+    text-align: center;
+    }  
+    .dastafka_cards .dastafka_card a{
+        position: absolute;
+        bottom: 12px;
+        left: auto;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14.52px;
+        text-align: center;
+        }
+        .dastafka_card2{
+            width: 100%; 
+            width: 350px !important;
+            margin: auto;
+        }
+        .all_text_p p{
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            text-align: left;
+            
+        margin-bottom: 24px;  
+        }
+        .title_dastafla_payment-body{
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 29.05px;
+            text-align: center;
+            
+        }
+.title_dastafla_payment-body2{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+text-align: left;
+color: 
+#242424;
+width: 95%;
+margin: auto;
+}
+}
+@media(max-width:420px){
+    .dastafka_cards {
+        display: flex;
+        justify-content: center;
+        max-width: 1132px;
+        flex-wrap: wrap;
+        gap: 13px;
+        margin: auto;
+    }
+    .dastafka_card2 {
+        width: 100%;
+        /* width: 328px !important; */
+        margin: auto;
+        height: 188px;
+    }
+    .dastafka_header .dastafka_header_body .media__vektor-image-second {
+        width: 68%;
+    }
+    .circles .circles__item--1 {
+        height: 144px;
+    }
+    .circles{
+        margin-top: -62px;
+    }
+    .circles .circles__item--1 img {
+        height: 36px;
+    }
+    .circles__item--1{
+        margin-bottom: 10px;
+    }
+    /* .circles .circles__item--1 p {
+        width: 70%;
+        margin-bottom: 0px;
+        margin-top: 12px;
+    }    */
+    .title_dastafla_payment-body{
+        /* margin-top: 69px; */
+        margin-bottom: 23px;
+        position: relative;
+        margin-top: 74px;
+    }
+    .dastafka_cards{
+        gap: 19px;
+    }
+    .dastafka_cards .dastafka_card {
+        background: #FFFFFF;
+        border: 1px solid #F2F2F2;
+        width: 157px;
+        height: 156px;
+    }
+    .dastafka_cards .dastafka_card p {
+        margin-bottom: 0px;
+    }
+    .dastafka_card2{
+        height: 180px;
+    }
+    .title_dastafla_payment-body2 {
+        margin-top: 37px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .all_text_p{
+        width: 92%;
+    }
+    .all_text_p p{
+        margin-bottom: 0px;
+    }.dastafak_admin_payment-body {
+    max-width: 1440px;
+    width: 97%;
+    margin: auto;
+    margin-top: 73px;
+}
+.comfortable h1 {
+    margin-top: 62px;
+    margin-left: 0px;
+}
+}
+
+
+

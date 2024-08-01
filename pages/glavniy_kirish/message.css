@@ -1,0 +1,187 @@
+.user-parlor__message-frame h2{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.94px;
+letter-spacing: 0.5px;
+text-align: left;
+margin-top: 17px;
+}
+.user-parlor__message-frame h3{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+letter-spacing: 0.5px;
+text-align: left;
+margin-bottom: 0;
+}
+.user-parlor__message-frame h4{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+letter-spacing: 0.5px;
+text-align: left;
+color: #898989;
+margin-bottom: 0;
+}
+.user-parlor__message-logo{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+@media (max-width:480px) {
+    .user-parlor__message-logo h3{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 17.07px;
+        letter-spacing: 0.5px;
+        text-align: left;
+
+    }
+    .user-parlor__message-frame h2{
+        font-family: Montserrat;
+        font-size: 14px !important;
+        font-weight: 400;
+        line-height: 14.63px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        
+    }
+    .user-parlor__content h1{
+        font-size: 22px !important;
+    }
+}
+@media (max-width:380px) {
+    .user-parlor__message-logo h3{
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17.07px;
+        letter-spacing: 0.5px;
+        text-align: left;
+
+    }
+    .user-parlor__message-frame h2{
+        font-family: Montserrat;
+        font-size: 12px !important;
+        font-weight: 400;
+        line-height: 14.63px;
+        letter-spacing: 0.5px;
+        text-align: left;   
+        margin-top: 10px;
+    }
+    .user-parlor__message-frame h4{
+        font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 6px;
+letter-spacing: 0.5px;
+text-align: left;
+margin-top: 12.8px;
+    }
+    .user-parlor__content h1{
+        font-family: Montserrat;
+font-size: 18px !important;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+    }
+    .user-parlor__message-frame {
+        /* background-color: red; */
+        box-shadow: 0px 0px 15px 0px #0000001A;
+    height: 166px;
+    border-radius: 12px;
+    margin-top: 14px !important;
+    padding: 18px;
+    position: relative;
+    left: 9px;
+    }
+    .user-parlor__message-frame p{
+        font-family: Montserrat;
+font-size: 12px;
+font-weight: 300;
+line-height: 14.63px;
+letter-spacing: 0.5px;
+text-align: right;
+    }
+}
+.user-parlor__message-frame {
+    /* background-color: red; */
+    box-shadow: 0px 0px 15px 0px #0000001A;
+height: 166px;
+border-radius: 12px;
+margin-top: 24px;
+padding: 18px;
+position: relative;
+}
+.user-parlor__message-frame p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.5px;
+letter-spacing: 0.5px;
+text-align: right;
+position: absolute;
+bottom: 0px;
+right: 5px;
+
+}
+@media (max-width:991px) {
+    .message-body{
+        width: 100vw !important;
+        padding-top: 100px !important;
+    }
+}
+.email-sms{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    gap: 12px;
+}
+.email-sms span{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.94px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+.email-sms input{
+    width: 24px;
+    height: 24px;
+}
+@media (max-width:365px) {
+    .user-parlor__title{
+        margin-top: -5px !important;
+        margin-left: 3px !important;
+    }
+    .user-parlor__message-frame{
+        margin-top: 25px !important;
+        left: 6px;
+        padding: 12px;
+    }
+    .user-parlor__message-logo {
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+        gap: 14px;
+    }
+    .user-parlor__message-frame{
+        height: 150px;
+    }
+    .user-parlor__message-frame p{
+        font-family: Montserrat;
+font-size: 12px !important;
+font-weight: 300;
+line-height: 14.63px;
+letter-spacing: 0.5px;
+text-align: right;
+right: 15px;
+    }
+}
