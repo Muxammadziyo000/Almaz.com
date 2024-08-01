@@ -2156,14 +2156,14 @@ h2 {
 @media (max-width:1240px) {
     .footer-version__pk {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 0.4 fr 0.7fr 0.5fr 1fr;
     }
 }
 
 @media (max-width:1150px) {
     .footer-version__pk {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 0.4 fr 0.7fr 0.5fr;
     }
 }
 
